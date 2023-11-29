@@ -1,0 +1,206 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fffbfb;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #e09494;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+    margin-bottom: 20px;
+}
+
+.contains {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-1 {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #0a0a0a;
+}
+
+.section-1 p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.section-1 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e09494;
+    border: 1px solid #e09494;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.section-1 .btn:hover {
+    background-color: #cdddf3;
+    color: #e09494;
+}
+
+.section-2 {
+    width: 40%;
+}
+
+.section-2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Styling Sections */
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #e09494;
+    font-size: 2,5em;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#experience {
+    margin-top: 20px;
+}
+
+
+/* Style for each list item */
+.skills-list li {
+    margin-bottom: 80px; /* Menambahkan jarak yang lebih besar antara setiap item */
+}
+
+/* Style for the heading within list item */
+.skills-list li h4 {
+    font-size: 25px; /* Memperbesar ukuran teks judul item */
+    margin-bottom: 15px; /* Menambahkan jarak di bagian bawah judul */
+    color: #080808; /* Warna teks judul item */
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Style for the image within list item */
+.skills-list li img {
+    width: 100%; /* Gambar akan mengisi lebar elemen paragraf */
+    height: auto; /* Tinggi gambar akan disesuaikan secara proporsional */
+    border-radius: 8px;
+    margin-bottom: 10px; /* Menambahkan jarak di bagian bawah gambar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada gambar */
+}
+
+.skills-list li {
+    margin: 10px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #e09494;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ffcccc;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #e09494;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}
